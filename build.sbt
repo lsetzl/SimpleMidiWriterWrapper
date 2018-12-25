@@ -1,3 +1,5 @@
+organization := "lsetzl"
+
 name := "SimpleMidiWriterWrapper"
 
 version := "0.1"
