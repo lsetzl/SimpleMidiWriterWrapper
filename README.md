@@ -11,5 +11,6 @@ libraryDependencies += "lsetzl" % "simplemidiwriterwrapper_2.12" % "0.1"
 
 ## Classes
 
-Sequence, Track, MidiEvent, MidiMessage, ShortMessage, MetaMessage, SysexMessage
+Sequence, Track, MidiEvent, MidiMessage, ShortMessage, MetaMessage, SysexMessage.
+
 Wrapping javax.sound.midi.*
