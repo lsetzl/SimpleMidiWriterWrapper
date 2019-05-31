@@ -6,7 +6,7 @@ Add to build.sbt:
 ```
 resolvers += "SimpleMidiWriterWrapper" at "https://lsetzl.github.io/SimpleMidiWriterWrapper/repository"
 
-libraryDependencies += "lsetzl" % "simplemidiwriterwrapper_2.12" % "0.1"
+libraryDependencies += "lsetzl" % "simplemidiwriterwrapper_2.12" % "0.2"
 ```
 
 ## Classes
