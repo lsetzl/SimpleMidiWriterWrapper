@@ -42,4 +42,13 @@ object MidiEvent {
   case class PitchBend(channel: Int, value: Int, override val tick: Long) extends MidiEvent {
     override val midiMessage: MidiMessage = ShortMessage.PitchBend(channel, value)
   }
+
+  case class GMSystemOn(override val tick: Long) extends MidiEvent {
+    override val midiMessage: MidiMessage = SysexMessage.GMSystemOn
+  }
+
+  case class MasterVolume(value: Int, override val tick: Long) extends MidiEvent {
+    override val midiMessage: MidiMessage = SysexMessage.GMSystemOn
+  }
+
 }

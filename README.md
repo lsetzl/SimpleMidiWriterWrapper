@@ -6,7 +6,7 @@ Add to build.sbt:
 ```
 resolvers += "jitpack" at "https://jitpack.io"
 
-libraryDependencies += "com.github.lsetzl" % "simplemidiwriterwrapper" % "0.3.1"
+libraryDependencies += "com.github.lsetzl" % "simplemidiwriterwrapper" % "0.3.2"
 ```
 
 ## Classes
