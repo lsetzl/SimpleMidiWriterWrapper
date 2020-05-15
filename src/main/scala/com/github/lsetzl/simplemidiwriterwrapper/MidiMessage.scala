@@ -1,4 +1,4 @@
-package com.gmail.lsetzl.simplemidiwriterwrapper
+package com.github.lsetzl.simplemidiwriterwrapper
 
 import javax.sound.midi.{MidiMessage => JMidiMessage}
 

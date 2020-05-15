@@ -1,4 +1,4 @@
-package com.gmail.lsetzl.simplemidiwriterwrapper
+package com.github.lsetzl.simplemidiwriterwrapper
 
 import javax.sound.midi.{MidiEvent => JMidiEvent}
 
@@ -48,7 +48,7 @@ object MidiEvent {
   }
 
   case class MasterVolume(value: Int, override val tick: Long) extends MidiEvent {
-    override val midiMessage: MidiMessage = SysexMessage.GMSystemOn
+    override val midiMessage: MidiMessage = SysexMessage.MasterVolume(value)
   }
 
 }
